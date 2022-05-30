@@ -1,1 +1,17 @@
-/* You can add global styles to this file, and also import other style files */
+:root
+{
+  --nav-color: #425eb9;
+  --bg-color: #253c80;
+  --timer-color: #242f59;
+  --orange-color: darkorange;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: black;
+  font-family: 'Open Sans',sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
